@@ -15,7 +15,7 @@ class RRT(object):
         rrt_list = self._rrt.items()
         distance = [(q[0][0] - p[0]) ** 2 + (q[0][1] - p[1]) ** 2 for q in rrt_list]
         idx = distance.index(min(distance))
-        return rrt_list[idx][0]
+        return list(rrt_list)[idx][0]
 
     def is_contain(self, q):
         return q in self._rrt
@@ -94,6 +94,6 @@ if __name__ == "__main__":
     m.start = (10, 10)
     m.end = (50, 30)
     m.obstacle = [(20, i) for i in range(30)] + [(40, 40 - i) for i in range(30)]
-    raw_input('enter to start ...')
+    input('enter to start ...')
     m.path = rrt_planning(m, display=True)
     m.wait_close()

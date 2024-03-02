@@ -92,6 +92,6 @@ if __name__ == "__main__":
     m.start = (10, 10)
     m.end = (50, 30)
     m.obstacle = [(20, i) for i in range(30)] + [(40, 40 - i) for i in range(30)]
-    raw_input('enter to start ...')
+    input('enter to start ...')
     m.path, _ = rrt_star_planning(m, display=True)
     m.wait_close()

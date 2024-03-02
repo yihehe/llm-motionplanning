@@ -56,7 +56,7 @@ class MapInfo(object):
     def obstacle(self, o):
         self._obstacle = copy.deepcopy(o)
         self._okdtree = cKDTree(o)
-        t = zip(*self.obstacle)
+        t = list(zip(*self.obstacle))
         plt.plot(t[0], t[1], 's', color='black')
 
     def is_collision(self, **kwargs):
@@ -106,10 +106,10 @@ class MapInfo(object):
         plt.plot(self._border_x, self._border_y, 'black')
         plt.plot(self.start[0], self.start[1], 'o', color='green')
         plt.plot(self.end[0], self.end[1], 'o', color='red')
-        t = zip(*self.obstacle)
+        t = list(zip(*self.obstacle))
         plt.plot(t[0], t[1], 's', color='black')
         for r in rrt.items():
-            t = zip(*r)
+            t = list(zip(*r))
             plt.plot(t[0], t[1], color='lightblue')
         if self._update_i % 20 == 1:
             self.update()
@@ -176,7 +176,7 @@ class MapInfo(object):
     @path.setter
     def path(self, o):
         self._path = copy.deepcopy(o)
-        t = zip(*self.path)
+        t = list(zip(*self.path))
         plt.plot(t[0], t[1], color='purple')
 
     def show(self):
