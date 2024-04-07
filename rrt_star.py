@@ -7,6 +7,7 @@ from scipy.spatial import cKDTree
 import math
 from rrt import RRT as RRTBase
 from rrt import reconstruct_path
+import aer1516
 
 class RRT(RRTBase):
     def __init__(self, q_init):
@@ -62,20 +63,30 @@ class RRT(RRTBase):
 def distance(p1, p2):
     return math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
 
-def rrt_star_planning(map_info, display=False):
+def rrt_star_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator):
     rrt = RRT(map_info.start)
     okdtree = cKDTree(map_info.obstacle)
+
+    points_generator = points_generator_type(map_info, rrt, visualize=True)
+
     while True:
         # generate random point
         if randint(0, 10) > 2:
-            q_rand = (randint(1, map_info.width - 1), randint(1, map_info.height - 1))
+            q_rand = points_generator.generate_point()
             if q_rand == map_info.start or q_rand in map_info.obstacle or rrt.is_contain(q_rand):
+                points_generator.report_invalid_point()
                 continue
         else:
             q_rand = map_info.end
+
         q_new = rrt.extend(q_rand, okdtree)
         if not q_new:
+            points_generator.report_invalid_point()
             continue
+
+        # reset skips
+        points_generator.report_successful_point()
+
         rrt.rewire(q_new, 5.0, okdtree)
         if display:
             map_info.set_rand(q_rand)
@@ -94,4 +105,5 @@ if __name__ == "__main__":
     m.obstacle = [(15, i) for i in range(30)] + [(35, 50 - i) for i in range(30)]
     input('enter to start ...')
     m.path, _ = rrt_star_planning(m, display=True)
+    print('success!')
     m.wait_close()

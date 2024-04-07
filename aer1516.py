@@ -84,7 +84,6 @@ class RandomPointsGenerator(PointsGenerator):
 
 class LlmPointsGenerator(PointsGenerator):
     def generate_point(self):
-        print(self.points_counter)
         if not hasattr(self, 'candidate_points'):
             self.candidate_points = []
 
