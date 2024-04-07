@@ -55,58 +55,84 @@ def llm_points(start, end):
 
     return candidate_points
 
-def interpolate_points(point1, point2, num_points):
-    interpolated_points = []
-    for i in range(1, num_points + 1):
-        x = point1[0] + (point2[0] - point1[0]) * i / (num_points + 1)
-        y = point1[1] + (point2[1] - point1[1]) * i / (num_points + 1)
-        interpolated_points.append((int(x), int(y)))
-    return interpolated_points
+class PointsGenerator(object):
+    def __init__(self, map_info, rrt, visualize=False):
+        self.map_info = map_info
+        self.rrt = rrt
+        self.width = map_info.width
+        self.height = map_info.height
 
-class RandomPointsGenerator(object):
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
+        self.visualize = visualize
 
+        self.points_counter = 0
+
+    def generate_point(self):
+        pass
+
+    def report_successful_point(self):
+        self.reset_points_counter()
+
+    def report_invalid_point(self):
+        self.points_counter += 1
+
+    def reset_points_counter(self):
+        self.points_counter = 0
+
+class RandomPointsGenerator(PointsGenerator):
     def generate_point(self):
         return (random.randint(0, self.width - 1), random.randint(0, self.height - 1))
 
-    def update_points(self, start, end):
-        pass
-
-    def should_update_points(self, num_consecutive_skips):
-        return False
-
-class LlmPointsGenerator(object):
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-        self.candidate_points = []
-
+class LlmPointsGenerator(PointsGenerator):
     def generate_point(self):
+        print(self.points_counter)
+        if not hasattr(self, 'candidate_points'):
+            self.candidate_points = []
+
+        if len(self.candidate_points) == 0 or self.should_update_points(self.points_counter):
+            self.update_points()
+
         point = random.choice(self.candidate_points)
         # fuzz the point since the llm likes to generate points that are too close to the wall
         point = (point[0] + random.randint(-2, 2), point[1] + random.randint(-2, 2))
         point = (min(max(point[0], 0), self.width - 1), min(max(point[1], 0), self.height - 1))
         return point
 
-    def update_points(self, start, end):
+    def update_points(self):
+        start = self.rrt.search_nearest_vertex(self.map_info.end)
+        end = self.map_info.end
+
         start = (int(start[0]), int(start[1]))
         end = (int(end[0]), int(end[1]))
 
-        print("llm update_points: ", start, end)
+        if self.visualize:
+            print(f"llm update_points from {start} to {end}")
 
         new_points = llm_points(start, end)
         interpolated_points = []
         for i in range(len(new_points) - 1):
             point1 = new_points[i]
             point2 = new_points[i + 1]
-            interpolated_points.extend(interpolate_points(point1, point2, 5))
+            interpolated_points.extend(self.interpolate_points(point1, point2, 5))
         new_points.extend(interpolated_points)
         self.candidate_points.extend(new_points)
         self.candidate_points = list(set(self.candidate_points))
 
-        return new_points
+        self.reset_points_counter()
+
+        if self.visualize:
+            # plot the new points for visualization
+            for new in new_points:
+                self.map_info.set_rand(new)
+            input('press enter to continue...')
+
+
+    def interpolate_points(self, point1, point2, num_points):
+        interpolated_points = []
+        for i in range(1, num_points + 1):
+            x = point1[0] + (point2[0] - point1[0]) * i / (num_points + 1)
+            y = point1[1] + (point2[1] - point1[1]) * i / (num_points + 1)
+            interpolated_points.append((int(x), int(y)))
+        return interpolated_points
 
     # determines how often we should update the points. this is a hyperparameter that needs to be tuned
     def should_update_points(self, num_consecutive_skips):

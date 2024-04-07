@@ -66,45 +66,29 @@ def reconstruct_path(rrt, end):
     path.append(q)
     return path
 
-def rrt_planning(map_info, display=False):
+def rrt_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator):
     rrt = RRT(map_info.start)
     okdtree = cKDTree(map_info.obstacle)
-    # RandomPointsGenerator will generate points randomly (normal rrt implementation)
-    # points_generator = aer1516.RandomPointsGenerator(map_info.width, map_info.height)
-    points_generator = aer1516.LlmPointsGenerator(map_info.width, map_info.height)
-    new_points = points_generator.update_points(map_info.start, map_info.end)
-    for new in new_points:
-        map_info.set_rand(new)
-    input('press enter to continue...')
 
-    num_consecutive_skips = 0
+    points_generator = points_generator_type(map_info, rrt, visualize=True)
+
     while True:
         # generate random point
         if randint(0, 10) > 2:
-            if points_generator.should_update_points(num_consecutive_skips):
-                closest_node_to_the_end = rrt.search_nearest_vertex(map_info.end)
-                new_points = points_generator.update_points(closest_node_to_the_end, map_info.end)
-                num_consecutive_skips = 0
-
-                for new in new_points:
-                    map_info.set_rand(new)
-
-                input('press enter to continue...')
-
             q_rand = points_generator.generate_point()
             if q_rand == map_info.start or q_rand in map_info.obstacle or rrt.is_contain(q_rand):
-                num_consecutive_skips += 1
+                points_generator.report_invalid_point()
                 continue
         else:
             q_rand = map_info.end
 
         q_new = rrt.extend(q_rand, okdtree)
         if not q_new:
-            num_consecutive_skips += 1
+            points_generator.report_invalid_point()
             continue
 
         # reset skips
-        num_consecutive_skips = 0
+        points_generator.report_successful_point()
 
         if display:
             map_info.set_rand(q_rand)
@@ -123,4 +107,5 @@ if __name__ == "__main__":
     m.obstacle = [(15, i) for i in range(30)] + [(35, 50 - i) for i in range(30)]
     input('press enter to start...')
     m.path = rrt_planning(m, display=True)
+    print('success!')
     m.wait_close()
