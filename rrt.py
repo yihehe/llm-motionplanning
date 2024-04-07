@@ -70,7 +70,7 @@ def rrt_planning(map_info, display=False, points_generator_type=aer1516.RandomPo
     rrt = RRT(map_info.start)
     okdtree = cKDTree(map_info.obstacle)
 
-    points_generator = points_generator_type(map_info, rrt, visualize=True)
+    points_generator = points_generator_type(map_info, rrt, map_info.end, visualize=True)
 
     while True:
         # generate random point

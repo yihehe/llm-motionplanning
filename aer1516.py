@@ -56,9 +56,10 @@ def llm_points(start, end):
     return candidate_points
 
 class PointsGenerator(object):
-    def __init__(self, map_info, rrt, visualize=False):
+    def __init__(self, map_info, rrt, goal, visualize=False):
         self.map_info = map_info
         self.rrt = rrt
+        self.goal = goal
         self.width = map_info.width
         self.height = map_info.height
 
@@ -97,8 +98,8 @@ class LlmPointsGenerator(PointsGenerator):
         return point
 
     def update_points(self):
-        start = self.rrt.search_nearest_vertex(self.map_info.end)
-        end = self.map_info.end
+        start = self.rrt.search_nearest_vertex(self.goal)
+        end = self.goal
 
         start = (int(start[0]), int(start[1]))
         end = (int(end[0]), int(end[1]))
