@@ -1,7 +1,9 @@
-# motionplanning
-Motion planning algorithm implementation in Python and C++
+# AER1516 Project
+AER1516 Project implementation with LLMs
+Based on [dawnjeanh/motionplanning](https://github.com/dawnjeanh/motionplanning)
 
 # Table of Contents
+   * [a* algorithm](#a-algorithm)
    * [Rapidly-exploring random tree algorithm](#rapidly-exploring-random-tree-algorithm)
       * [rrt](#rrt)
       * [rrt_connect](#rrt_connect)
@@ -20,6 +22,3 @@ Motion planning algorithm implementation in Python and C++
 
 ## rrt*
 ![rrt_connect](https://github.com/dawnjeanh/image_resource/raw/master/gif/rrt_star_rviz.gif)
-
-## rrt*-smart
-![rrt_connect](https://github.com/dawnjeanh/image_resource/raw/master/gif/rrt_star_smart.gif)

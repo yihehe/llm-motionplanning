@@ -61,11 +61,11 @@ class AStar(object):
         return False
 
 if __name__ == "__main__":
-    m = MapInfo(60, 40)
+    m = MapInfo(50, 50)
     m.show()
-    m.start = (10.5, 10)
-    m.end = (50, 30)
-    m.obstacle = [(20, i) for i in range(30)] + [(40, 40 - i) for i in range(30)]
+    m.start = (10, 10)
+    m.end = (40, 40)
+    m.obstacle = [(15, i) for i in range(30)] + [(35, 50 - i) for i in range(30)]
     input('enter to start ...')
     plan = AStar(m.start, m.end, m)
     if plan.run(display=True):

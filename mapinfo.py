@@ -81,22 +81,6 @@ class MapInfo(object):
                 return True
             return False
 
-    @property
-    def roadmap(self):
-        return self._roadmap
-
-    @roadmap.setter
-    def roadmap(self, o):
-        self._roadmap = copy.deepcopy(o)
-        t = zip(*self.roadmap.keys())
-        plt.plot(t[0], t[1], '.', color='blue')
-        self.update()
-        for k, v in self.roadmap.items():
-            for p in v:
-                plt.plot([k[0], p[0]], [k[1], p[1]], color='lightblue')
-        plt.plot(t[0], t[1], '.', color='blue')
-        self.update()
-
     def set_rand(self, r):
         self.draw_point(r, 'd', color='blue')
         self.update()
@@ -111,21 +95,6 @@ class MapInfo(object):
         for r in rrt.items():
             t = list(zip(*r))
             plt.plot(t[0], t[1], color='lightblue')
-        if self._update_i % 20 == 1:
-            self.update()
-
-    def set_rrt_dubins(self, rrt):
-        plt.clf()
-        plt.plot(self._border_x, self._border_y, 'black')
-        self.draw_point(self._start, 'o', color='green')
-        self.draw_point(self._end, 'o', color='red')
-        t = zip(*self.obstacle)
-        plt.plot(t[0], t[1], 's', color='black')
-        for r in rrt.items():
-            if r[1][2]:
-                x = r[1][2][0]
-                y = r[1][2][1]
-                plt.plot(x, y, color='lightblue')
         if self._update_i % 20 == 1:
             self.update()
 
