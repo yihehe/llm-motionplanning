@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import matplotlib.pyplot as plt
@@ -134,13 +134,13 @@ class MapInfo(object):
         plt.plot(self._border_x, self._border_y, 'black')
         plt.plot(self.start[0], self.start[1], 'o', color='green')
         plt.plot(self.end[0], self.end[1], 'o', color='red')
-        t = zip(*self.obstacle)
+        t = list(zip(*self.obstacle))
         plt.plot(t[0], t[1], 's', color='black')
         for r in rrta.items():
-            t = zip(*r)
+            t = list(zip(*r))
             plt.plot(t[0], t[1], color='lightblue')
         for r in rrtb.items():
-            t = zip(*r)
+            t = list(zip(*r))
             plt.plot(t[0], t[1], color='lightblue')
         if self._update_i % 20 == 1:
             self.update()
