@@ -147,6 +147,7 @@ class MapInfo(object):
         self._path = copy.deepcopy(o)
         t = list(zip(*self.path))
         plt.plot(t[0], t[1], color='purple')
+        self.update()
 
     def show(self):
         plt.axis('equal')

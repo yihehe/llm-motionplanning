@@ -21,17 +21,20 @@ def reconstruct_path(rrta, rrtb, q_reach, map_info):
     p2.reverse()
     return p2 + p1
 
-def rrt_connect_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator):
+def rrt_connect_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator, stats=None):
     rrt_start = RRT(map_info.start)
     rrt_end = RRT(map_info.end)
     rrt_a = rrt_start
     rrt_b = rrt_end
 
-    points_generator_a = points_generator_type(map_info, rrt_a, map_info.end, visualize=True)
-    points_generator_b = points_generator_type(map_info, rrt_b, map_info.start, visualize=True)
+    points_generator_a = points_generator_type(map_info, rrt_a, map_info.end, visualize=display)
+    points_generator_b = points_generator_type(map_info, rrt_b, map_info.start, visualize=display)
 
     okdtree = cKDTree(map_info.obstacle)
-    while True:
+    if stats != None: stats.start()
+    for _ in range(10000):
+        if stats != None: stats.iterate()
+
         q_rand = points_generator_a.generate_point()
         if q_rand == map_info.start or q_rand in map_info.obstacle or rrt_a.is_contain(q_rand):
             points_generator_a.report_invalid_point()
@@ -48,12 +51,20 @@ def rrt_connect_planning(map_info, display=False, points_generator_type=aer1516.
                 map_info.set_rrt_connect(rrt_a.get_rrt(), rrt_b.get_rrt())
             # 2 rrts reached
             if q_new == q_new_:
-                return reconstruct_path(rrt_a, rrt_b, q_new, map_info)
+                if stats != None: stats.end()
+                final_path = reconstruct_path(rrt_a, rrt_b, q_new, map_info)
+
+                if stats != None: stats.final_path(final_path)
+                if stats != None: stats.rrt_connect(rrt_a.get_rrt(), rrt_b.get_rrt())
+                return final_path
             elif q_new_ == None:
                 break
         # swap 2 rrts
         rrt_a, rrt_b = rrt_b, rrt_a
         points_generator_a, points_generator_b = points_generator_b, points_generator_a
+
+    if stats != None: stats.end()
+    return None
 
 if __name__ == "__main__":
     m = MapInfo(50, 50)

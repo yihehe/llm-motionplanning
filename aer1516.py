@@ -23,8 +23,8 @@ def gpt4(prompt):
       presence_penalty= 0
     )
 
-    print("user_content: ", prompt)
-    print("response: ", response)
+    # print("user_content: ", prompt)
+    # print("response: ", response)
 
     return response.choices[0].message.content
 
@@ -40,7 +40,8 @@ def get_prompt(start, end):
     You must avoid passing through any of the mentioned obstacles and stay within the bounds of the map.
 
     Your starting position is {start}, and the goal is to reach {end}. Think of a path that can lead from the starting position to the goal position. Be mindful of obstacles and the boundaries of the map.
-    Give a list of points along this path, making sure not to pass through the stated obstacles and staying within the bounds of the map.
+    Give a list of points along this path and the reasoning, making sure not to pass through the stated obstacles and staying within the bounds of the map.
+    Do not provide any additional context, just a list will do.
     """
 
 def llm_points(start, end):
@@ -49,9 +50,6 @@ def llm_points(start, end):
     # extract points in tuple format from free-form response
     tuple_list = re.findall(r'\(\d+,\s*\d+\)', gpt_response)
     candidate_points = [tuple(map(int, t.strip('()').split(','))) for t in tuple_list]
-
-    # remove start and end points
-    candidate_points = [point for point in candidate_points if point != start and point != end]
 
     return candidate_points
 
@@ -114,6 +112,10 @@ class LlmPointsGenerator(PointsGenerator):
             point2 = new_points[i + 1]
             interpolated_points.extend(self.interpolate_points(point1, point2, 5))
         new_points.extend(interpolated_points)
+
+        # remove start and end points
+        new_points = [point for point in new_points if point != start and point != end]
+
         self.candidate_points.extend(new_points)
         self.candidate_points = list(set(self.candidate_points))
 

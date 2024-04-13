@@ -63,13 +63,16 @@ class RRT(RRTBase):
 def distance(p1, p2):
     return math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
 
-def rrt_star_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator):
+def rrt_star_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator, stats=None):
     rrt = RRT(map_info.start)
     okdtree = cKDTree(map_info.obstacle)
 
-    points_generator = points_generator_type(map_info, rrt, map_info.end, visualize=True)
+    points_generator = points_generator_type(map_info, rrt, map_info.end, visualize=display)
 
-    while True:
+    if stats != None: stats.start()
+    for _ in range(10000):
+        if stats != None: stats.iterate()
+
         # generate random point
         if randint(0, 10) > 2:
             q_rand = points_generator.generate_point()
@@ -95,7 +98,15 @@ def rrt_star_planning(map_info, display=False, points_generator_type=aer1516.Ran
         if distance(q_new, map_info.end) <= 1.0:
             if q_new != map_info.end:
                 rrt.add(map_info.end, q_new)
-            return reconstruct_path(rrt, map_info.end), rrt
+            if stats != None: stats.end()
+            final_path = reconstruct_path(rrt, map_info.end)
+
+            if stats != None: stats.final_path(final_path)
+            if stats != None: stats.rrt(rrt.get_rrt())
+            return final_path
+
+    if stats != None: stats.end()
+    return None
 
 if __name__ == "__main__":
     m = MapInfo(50, 50)
@@ -104,6 +115,6 @@ if __name__ == "__main__":
     m.end = (40, 40)
     m.obstacle = [(15, i) for i in range(30)] + [(35, 50 - i) for i in range(30)]
     input('enter to start ...')
-    m.path, _ = rrt_star_planning(m, display=True)
+    m.path = rrt_star_planning(m, display=True)
     print('success!')
     m.wait_close()

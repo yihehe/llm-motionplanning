@@ -66,13 +66,16 @@ def reconstruct_path(rrt, end):
     path.append(q)
     return path
 
-def rrt_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator):
+def rrt_planning(map_info, display=False, points_generator_type=aer1516.RandomPointsGenerator, stats=None):
     rrt = RRT(map_info.start)
     okdtree = cKDTree(map_info.obstacle)
 
-    points_generator = points_generator_type(map_info, rrt, map_info.end, visualize=True)
+    points_generator = points_generator_type(map_info, rrt, map_info.end, visualize=display)
 
-    while True:
+    if stats != None: stats.start()
+    for _ in range(10000):
+        if stats != None: stats.iterate()
+
         # generate random point
         if randint(0, 10) > 2:
             q_rand = points_generator.generate_point()
@@ -97,7 +100,15 @@ def rrt_planning(map_info, display=False, points_generator_type=aer1516.RandomPo
         if distance(q_new, map_info.end) <= 1.0:
             if q_new != map_info.end:
                 rrt.add(map_info.end, q_new)
-            return reconstruct_path(rrt, map_info.end)
+            if stats != None: stats.end()
+            final_path = reconstruct_path(rrt, map_info.end)
+
+            if stats != None: stats.final_path(final_path)
+            if stats != None: stats.rrt(rrt.get_rrt())
+            return final_path
+
+    if stats != None: stats.end()
+    return None
 
 if __name__ == "__main__":
     m = MapInfo(50, 50)
