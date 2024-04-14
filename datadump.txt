@@ -1,543 +1,2702 @@
-❯ python3 benchmark.py
 Running rrt iteration 1:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1284
-Time spent:     0.08530807495117188
-Distance:       91.53162581603473
-Num Points:     686
+Name:		rrt
+Success:	True
+Iterations:	1284
+Time spent:	0.08530807495117188
+Distance:	91.53162581603473
+Num Points:	686
 ---------------------------------
 Running rrt iteration 2:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1298
-Time spent:     0.08451581001281738
-Distance:       100.15266223154778
-Num Points:     662
+Name:		rrt
+Success:	True
+Iterations:	1298
+Time spent:	0.08451581001281738
+Distance:	100.15266223154778
+Num Points:	662
 ---------------------------------
 Running rrt iteration 3:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1593
-Time spent:     0.12265896797180176
-Distance:       106.62133018443689
-Num Points:     791
+Name:		rrt
+Success:	True
+Iterations:	1593
+Time spent:	0.12265896797180176
+Distance:	106.62133018443689
+Num Points:	791
 ---------------------------------
 Running rrt iteration 4:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1426
-Time spent:     0.10155916213989258
-Distance:       104.66349140277195
-Num Points:     728
+Name:		rrt
+Success:	True
+Iterations:	1426
+Time spent:	0.10155916213989258
+Distance:	104.66349140277195
+Num Points:	728
 ---------------------------------
 Running rrt iteration 5:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1406
-Time spent:     0.10287785530090332
-Distance:       91.93791576458537
-Num Points:     748
+Name:		rrt
+Success:	True
+Iterations:	1406
+Time spent:	0.10287785530090332
+Distance:	91.93791576458537
+Num Points:	748
 ---------------------------------
 Running rrt iteration 6:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1485
-Time spent:     0.11791372299194336
-Distance:       100.96418069530895
-Num Points:     813
+Name:		rrt
+Success:	True
+Iterations:	1485
+Time spent:	0.11791372299194336
+Distance:	100.96418069530895
+Num Points:	813
 ---------------------------------
 Running rrt iteration 7:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1401
-Time spent:     0.10518884658813477
-Distance:       102.58389894106566
-Num Points:     747
+Name:		rrt
+Success:	True
+Iterations:	1401
+Time spent:	0.10518884658813477
+Distance:	102.58389894106566
+Num Points:	747
 ---------------------------------
 Running rrt iteration 8:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1511
-Time spent:     0.12054014205932617
-Distance:       104.13267772987557
-Num Points:     809
+Name:		rrt
+Success:	True
+Iterations:	1511
+Time spent:	0.12054014205932617
+Distance:	104.13267772987557
+Num Points:	809
 ---------------------------------
 Running rrt iteration 9:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     2008
-Time spent:     0.178009033203125
-Distance:       116.25165431051256
-Num Points:     982
+Name:		rrt
+Success:	True
+Iterations:	2008
+Time spent:	0.178009033203125
+Distance:	116.25165431051256
+Num Points:	982
 ---------------------------------
 Running rrt iteration 10:
 ---------------------------------
-Name:           rrt
-Success:        True
-Iterations:     1360
-Time spent:     0.08885312080383301
-Distance:       84.68505700895876
-Num Points:     661
+Name:		rrt
+Success:	True
+Iterations:	1360
+Time spent:	0.08885312080383301
+Distance:	84.68505700895876
+Num Points:	661
+---------------------------------
+Running rrt iteration 11:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1359
+Time spent:	0.095458984375
+Distance:	101.14244267201705
+Num Points:	720
+---------------------------------
+Running rrt iteration 12:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1159
+Time spent:	0.07318997383117676
+Distance:	94.82048101884483
+Num Points:	601
+---------------------------------
+Running rrt iteration 13:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1463
+Time spent:	0.11045622825622559
+Distance:	100.80837623244268
+Num Points:	778
+---------------------------------
+Running rrt iteration 14:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1763
+Time spent:	0.14095115661621094
+Distance:	93.13288273479202
+Num Points:	864
+---------------------------------
+Running rrt iteration 15:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1202
+Time spent:	0.07982492446899414
+Distance:	101.82319634677263
+Num Points:	658
+---------------------------------
+Running rrt iteration 16:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1639
+Time spent:	0.13693904876708984
+Distance:	112.17810744106845
+Num Points:	873
+---------------------------------
+Running rrt iteration 17:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1498
+Time spent:	0.11243963241577148
+Distance:	99.90386622189244
+Num Points:	760
+---------------------------------
+Running rrt iteration 18:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1464
+Time spent:	0.11066126823425293
+Distance:	105.26484599387933
+Num Points:	793
+---------------------------------
+Running rrt iteration 19:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1415
+Time spent:	0.10544705390930176
+Distance:	104.77367208476593
+Num Points:	761
+---------------------------------
+Running rrt iteration 20:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1759
+Time spent:	0.15336084365844727
+Distance:	99.5352168968152
+Num Points:	931
+---------------------------------
+Running rrt iteration 21:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1720
+Time spent:	0.1440901756286621
+Distance:	105.88171449109835
+Num Points:	873
+---------------------------------
+Running rrt iteration 22:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1416
+Time spent:	0.10448789596557617
+Distance:	105.76401394792002
+Num Points:	753
+---------------------------------
+Running rrt iteration 23:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1644
+Time spent:	0.1463019847869873
+Distance:	102.13152496976826
+Num Points:	923
+---------------------------------
+Running rrt iteration 24:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1004
+Time spent:	0.056828975677490234
+Distance:	92.26909340808116
+Num Points:	545
+---------------------------------
+Running rrt iteration 25:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1791
+Time spent:	0.1553797721862793
+Distance:	116.48123867064757
+Num Points:	946
+---------------------------------
+Running rrt iteration 26:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1370
+Time spent:	0.09332680702209473
+Distance:	94.80956561327206
+Num Points:	701
+---------------------------------
+Running rrt iteration 27:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1532
+Time spent:	0.10843515396118164
+Distance:	94.86036203333126
+Num Points:	750
+---------------------------------
+Running rrt iteration 28:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1226
+Time spent:	0.08033204078674316
+Distance:	89.51472184554254
+Num Points:	642
+---------------------------------
+Running rrt iteration 29:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1419
+Time spent:	0.1083681583404541
+Distance:	93.96929888205895
+Num Points:	761
+---------------------------------
+Running rrt iteration 30:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1432
+Time spent:	0.10916399955749512
+Distance:	110.79504482971669
+Num Points:	774
+---------------------------------
+Running rrt iteration 31:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1293
+Time spent:	0.07982397079467773
+Distance:	96.7524874140366
+Num Points:	629
+---------------------------------
+Running rrt iteration 32:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	990
+Time spent:	0.04950213432312012
+Distance:	88.84645343058529
+Num Points:	491
+---------------------------------
+Running rrt iteration 33:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1592
+Time spent:	0.12358903884887695
+Distance:	97.51254349768087
+Num Points:	822
+---------------------------------
+Running rrt iteration 34:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1624
+Time spent:	0.13216590881347656
+Distance:	116.78986441230616
+Num Points:	851
+---------------------------------
+Running rrt iteration 35:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1743
+Time spent:	0.14504194259643555
+Distance:	97.95680651868177
+Num Points:	870
+---------------------------------
+Running rrt iteration 36:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1611
+Time spent:	0.12252020835876465
+Distance:	100.4395394239874
+Num Points:	804
+---------------------------------
+Running rrt iteration 37:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	947
+Time spent:	0.053997039794921875
+Distance:	87.78286593298913
+Num Points:	532
+---------------------------------
+Running rrt iteration 38:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1842
+Time spent:	0.1576225757598877
+Distance:	108.65058899796053
+Num Points:	948
+---------------------------------
+Running rrt iteration 39:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1124
+Time spent:	0.06795406341552734
+Distance:	88.05520086455813
+Num Points:	591
+---------------------------------
+Running rrt iteration 40:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1724
+Time spent:	0.13318204879760742
+Distance:	95.66601544692914
+Num Points:	818
+---------------------------------
+Running rrt iteration 41:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1415
+Time spent:	0.11535406112670898
+Distance:	97.50422788285154
+Num Points:	814
+---------------------------------
+Running rrt iteration 42:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1786
+Time spent:	0.15061664581298828
+Distance:	103.21642747683327
+Num Points:	897
+---------------------------------
+Running rrt iteration 43:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1805
+Time spent:	0.16291189193725586
+Distance:	94.94217395306093
+Num Points:	981
+---------------------------------
+Running rrt iteration 44:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1578
+Time spent:	0.12211298942565918
+Distance:	94.22695482842609
+Num Points:	817
+---------------------------------
+Running rrt iteration 45:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1342
+Time spent:	0.09656095504760742
+Distance:	91.40198433407738
+Num Points:	734
+---------------------------------
+Running rrt iteration 46:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1171
+Time spent:	0.08081364631652832
+Distance:	88.6029683305913
+Num Points:	671
+---------------------------------
+Running rrt iteration 47:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1413
+Time spent:	0.10495901107788086
+Distance:	96.49356269719686
+Num Points:	755
+---------------------------------
+Running rrt iteration 48:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1793
+Time spent:	0.15527701377868652
+Distance:	110.21556627096669
+Num Points:	923
+---------------------------------
+Running rrt iteration 49:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1057
+Time spent:	0.062111854553222656
+Distance:	91.04899785501624
+Num Points:	574
+---------------------------------
+Running rrt iteration 50:
+---------------------------------
+Name:		rrt
+Success:	True
+Iterations:	1289
+Time spent:	0.09294700622558594
+Distance:	94.96673381902056
+Num Points:	700
 ---------------------------------
 Running rrt_llm iteration 1:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     1643
-Time spent:     6.973418235778809
-Distance:       82.30966122999466
-Num Points:     303
+Name:		rrt_llm
+Success:	True
+Iterations:	1643
+Time spent:	6.973418235778809
+Distance:	82.30966122999466
+Num Points:	303
 ---------------------------------
 Running rrt_llm iteration 2:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     2253
-Time spent:     11.65715217590332
-Distance:       82.95638358613286
-Num Points:     425
+Name:		rrt_llm
+Success:	True
+Iterations:	2253
+Time spent:	11.65715217590332
+Distance:	82.95638358613286
+Num Points:	425
 ---------------------------------
 Running rrt_llm iteration 3:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     1958
-Time spent:     12.500138998031616
-Distance:       85.91296531198603
-Num Points:     433
+Name:		rrt_llm
+Success:	True
+Iterations:	1958
+Time spent:	12.500138998031616
+Distance:	85.91296531198603
+Num Points:	433
 ---------------------------------
 Running rrt_llm iteration 4:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     3201
-Time spent:     29.740110874176025
-Distance:       91.68159996232293
-Num Points:     410
+Name:		rrt_llm
+Success:	True
+Iterations:	3201
+Time spent:	29.740110874176025
+Distance:	91.68159996232293
+Num Points:	410
 ---------------------------------
 Running rrt_llm iteration 5:
 ---------------------------------
-Name:           rrt_llm
-Success:        False
-Iterations:     10000
-Time spent:     184.23082399368286
-Distance:       0
-Num Points:     0
+Name:		rrt_llm
+Success:	False
+Iterations:	10000
+Time spent:	184.23082399368286
+Distance:	0
+Num Points:	0
 ---------------------------------
 Running rrt_llm iteration 6:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     1817
-Time spent:     8.171983003616333
-Distance:       86.51881638756029
-Num Points:     318
+Name:		rrt_llm
+Success:	True
+Iterations:	1817
+Time spent:	8.171983003616333
+Distance:	86.51881638756029
+Num Points:	318
 ---------------------------------
 Running rrt_llm iteration 7:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     1013
-Time spent:     6.041383981704712
-Distance:       82.19725163804024
-Num Points:     272
+Name:		rrt_llm
+Success:	True
+Iterations:	1013
+Time spent:	6.041383981704712
+Distance:	82.19725163804024
+Num Points:	272
 ---------------------------------
 Running rrt_llm iteration 8:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     2048
-Time spent:     13.289396047592163
-Distance:       82.99885243483021
-Num Points:     312
+Name:		rrt_llm
+Success:	True
+Iterations:	2048
+Time spent:	13.289396047592163
+Distance:	82.99885243483021
+Num Points:	312
 ---------------------------------
 Running rrt_llm iteration 9:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     1813
-Time spent:     12.847112894058228
-Distance:       80.92866994686099
-Num Points:     338
+Name:		rrt_llm
+Success:	True
+Iterations:	1813
+Time spent:	12.847112894058228
+Distance:	80.92866994686099
+Num Points:	338
 ---------------------------------
 Running rrt_llm iteration 10:
 ---------------------------------
-Name:           rrt_llm
-Success:        True
-Iterations:     3300
-Time spent:     26.91976571083069
-Distance:       83.44579914557372
-Num Points:     332
+Name:		rrt_llm
+Success:	True
+Iterations:	3300
+Time spent:	26.91976571083069
+Distance:	83.44579914557372
+Num Points:	332
+---------------------------------
+Running rrt_llm iteration 11:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	4143
+Time spent:	23.9440701007843
+Distance:	83.10291540688961
+Num Points:	372
+---------------------------------
+Running rrt_llm iteration 12:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	991
+Time spent:	3.1057231426239014
+Distance:	78.66223619250145
+Num Points:	226
+---------------------------------
+Running rrt_llm iteration 13:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	9783
+Time spent:	122.68739485740662
+Distance:	85.21189733953196
+Num Points:	490
+---------------------------------
+Running rrt_llm iteration 14:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	680
+Time spent:	9.839899063110352
+Distance:	82.77563989306731
+Num Points:	206
+---------------------------------
+Running rrt_llm iteration 15:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1358
+Time spent:	3.1419928073883057
+Distance:	83.41906514935039
+Num Points:	253
+---------------------------------
+Running rrt_llm iteration 16:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	3009
+Time spent:	12.307646989822388
+Distance:	89.12625470384529
+Num Points:	590
+---------------------------------
+Running rrt_llm iteration 17:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	3335
+Time spent:	25.704176902770996
+Distance:	94.1456245145849
+Num Points:	408
+---------------------------------
+Running rrt_llm iteration 18:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2499
+Time spent:	16.662904024124146
+Distance:	89.35979765142484
+Num Points:	370
+---------------------------------
+Running rrt_llm iteration 19:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	4455
+Time spent:	26.822025775909424
+Distance:	90.81580498213992
+Num Points:	491
+---------------------------------
+Running rrt_llm iteration 20:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1356
+Time spent:	7.665333986282349
+Distance:	89.86948423539553
+Num Points:	290
+---------------------------------
+Running rrt_llm iteration 21:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	5186
+Time spent:	67.75356411933899
+Distance:	96.14519862649821
+Num Points:	396
+---------------------------------
+Running rrt_llm iteration 22:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2989
+Time spent:	25.425529718399048
+Distance:	91.87645506032524
+Num Points:	390
+---------------------------------
+Running rrt_llm iteration 23:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	5051
+Time spent:	53.6549129486084
+Distance:	95.5997304589212
+Num Points:	409
+---------------------------------
+Running rrt_llm iteration 24:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	3565
+Time spent:	14.14847993850708
+Distance:	91.03211804666857
+Num Points:	516
+---------------------------------
+Running rrt_llm iteration 25:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1138
+Time spent:	12.258724212646484
+Distance:	84.61592299122073
+Num Points:	254
+---------------------------------
+Running rrt_llm iteration 26:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2938
+Time spent:	15.738049030303955
+Distance:	97.03732278256362
+Num Points:	526
+---------------------------------
+Running rrt_llm iteration 27:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1846
+Time spent:	16.753605127334595
+Distance:	90.2486768023193
+Num Points:	354
+---------------------------------
+Running rrt_llm iteration 28:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2112
+Time spent:	10.680432081222534
+Distance:	89.49934282673969
+Num Points:	430
+---------------------------------
+Running rrt_llm iteration 29:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2157
+Time spent:	20.704583883285522
+Distance:	94.76394580986576
+Num Points:	378
+---------------------------------
+Running rrt_llm iteration 30:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1165
+Time spent:	11.147527933120728
+Distance:	76.1175801638004
+Num Points:	253
+---------------------------------
+Running rrt_llm iteration 31:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	4909
+Time spent:	26.472983837127686
+Distance:	86.66319222231813
+Num Points:	478
+---------------------------------
+Running rrt_llm iteration 32:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1438
+Time spent:	14.900155782699585
+Distance:	82.28392722116476
+Num Points:	280
+---------------------------------
+Running rrt_llm iteration 33:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2878
+Time spent:	30.040413856506348
+Distance:	88.49540244574064
+Num Points:	352
+---------------------------------
+Running rrt_llm iteration 34:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	839
+Time spent:	8.338047981262207
+Distance:	96.82496537965083
+Num Points:	278
+---------------------------------
+Running rrt_llm iteration 35:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	870
+Time spent:	6.579996109008789
+Distance:	80.88242972159037
+Num Points:	228
+---------------------------------
+Running rrt_llm iteration 36:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	5906
+Time spent:	106.4444510936737
+Distance:	94.19126521288857
+Num Points:	414
+---------------------------------
+Running rrt_llm iteration 37:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2124
+Time spent:	16.628665924072266
+Distance:	85.95387144742078
+Num Points:	343
+---------------------------------
+Running rrt_llm iteration 38:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2093
+Time spent:	12.983536958694458
+Distance:	86.88973716193853
+Num Points:	319
+---------------------------------
+Running rrt_llm iteration 39:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1429
+Time spent:	17.27733588218689
+Distance:	104.67758678117494
+Num Points:	329
+---------------------------------
+Running rrt_llm iteration 40:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	3302
+Time spent:	21.623948097229004
+Distance:	90.37766315656043
+Num Points:	410
+---------------------------------
+Running rrt_llm iteration 41:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1438
+Time spent:	6.870528936386108
+Distance:	90.56165695981359
+Num Points:	398
+---------------------------------
+Running rrt_llm iteration 42:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	3918
+Time spent:	55.81458115577698
+Distance:	89.96748688555643
+Num Points:	375
+---------------------------------
+Running rrt_llm iteration 43:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	4854
+Time spent:	25.436078786849976
+Distance:	85.79181169911182
+Num Points:	531
+---------------------------------
+Running rrt_llm iteration 44:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	2537
+Time spent:	16.299052953720093
+Distance:	90.12037595454865
+Num Points:	504
+---------------------------------
+Running rrt_llm iteration 45:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	3437
+Time spent:	29.271533727645874
+Distance:	91.2241142189373
+Num Points:	398
+---------------------------------
+Running rrt_llm iteration 46:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	5072
+Time spent:	76.6999077796936
+Distance:	91.57772363066535
+Num Points:	410
+---------------------------------
+Running rrt_llm iteration 47:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1253
+Time spent:	11.500625848770142
+Distance:	99.55840826232112
+Num Points:	282
+---------------------------------
+Running rrt_llm iteration 48:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	5777
+Time spent:	101.90668606758118
+Distance:	87.26486498680278
+Num Points:	370
+---------------------------------
+Running rrt_llm iteration 49:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	9742
+Time spent:	215.6086118221283
+Distance:	95.70761662919155
+Num Points:	356
+---------------------------------
+Running rrt_llm iteration 50:
+---------------------------------
+Name:		rrt_llm
+Success:	True
+Iterations:	1781
+Time spent:	7.620609998703003
+Distance:	79.69081552359212
+Num Points:	438
 ---------------------------------
 Running rrt_star iteration 1:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     2093
-Time spent:     2.6479570865631104
-Distance:       74.12665812330955
-Num Points:     1007
+Name:		rrt_star
+Success:	True
+Iterations:	2093
+Time spent:	2.6479570865631104
+Distance:	74.12665812330955
+Num Points:	1007
 ---------------------------------
 Running rrt_star iteration 2:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1540
-Time spent:     1.609133005142212
-Distance:       73.17362959960785
-Num Points:     777
+Name:		rrt_star
+Success:	True
+Iterations:	1540
+Time spent:	1.609133005142212
+Distance:	73.17362959960785
+Num Points:	777
 ---------------------------------
 Running rrt_star iteration 3:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1578
-Time spent:     1.7350800037384033
-Distance:       72.77297808605967
-Num Points:     805
+Name:		rrt_star
+Success:	True
+Iterations:	1578
+Time spent:	1.7350800037384033
+Distance:	72.77297808605967
+Num Points:	805
 ---------------------------------
 Running rrt_star iteration 4:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     2010
-Time spent:     2.4706380367279053
-Distance:       72.98430489109063
-Num Points:     966
+Name:		rrt_star
+Success:	True
+Iterations:	2010
+Time spent:	2.4706380367279053
+Distance:	72.98430489109063
+Num Points:	966
 ---------------------------------
 Running rrt_star iteration 5:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1637
-Time spent:     1.912458896636963
-Distance:       69.6603566659114
-Num Points:     812
+Name:		rrt_star
+Success:	True
+Iterations:	1637
+Time spent:	1.912458896636963
+Distance:	69.6603566659114
+Num Points:	812
 ---------------------------------
 Running rrt_star iteration 6:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1818
-Time spent:     2.3675498962402344
-Distance:       77.64537205322901
-Num Points:     930
+Name:		rrt_star
+Success:	True
+Iterations:	1818
+Time spent:	2.3675498962402344
+Distance:	77.64537205322901
+Num Points:	930
 ---------------------------------
 Running rrt_star iteration 7:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1349
-Time spent:     1.4815051555633545
-Distance:       73.82071999307334
-Num Points:     722
+Name:		rrt_star
+Success:	True
+Iterations:	1349
+Time spent:	1.4815051555633545
+Distance:	73.82071999307334
+Num Points:	722
 ---------------------------------
 Running rrt_star iteration 8:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1296
-Time spent:     1.4442858695983887
-Distance:       72.64255459670655
-Num Points:     715
+Name:		rrt_star
+Success:	True
+Iterations:	1296
+Time spent:	1.4442858695983887
+Distance:	72.64255459670655
+Num Points:	715
 ---------------------------------
 Running rrt_star iteration 9:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1462
-Time spent:     1.6868500709533691
-Distance:       73.64477919632708
-Num Points:     777
+Name:		rrt_star
+Success:	True
+Iterations:	1462
+Time spent:	1.6868500709533691
+Distance:	73.64477919632708
+Num Points:	777
 ---------------------------------
 Running rrt_star iteration 10:
 ---------------------------------
-Name:           rrt_star
-Success:        True
-Iterations:     1338
-Time spent:     1.297010898590088
-Distance:       74.33970441706286
-Num Points:     668
+Name:		rrt_star
+Success:	True
+Iterations:	1338
+Time spent:	1.297010898590088
+Distance:	74.33970441706286
+Num Points:	668
+---------------------------------
+Running rrt_star iteration 11:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1180
+Time spent:	1.1955490112304688
+Distance:	68.0456005591393
+Num Points:	630
+---------------------------------
+Running rrt_star iteration 12:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1767
+Time spent:	2.162750244140625
+Distance:	71.64770217990767
+Num Points:	869
+---------------------------------
+Running rrt_star iteration 13:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1559
+Time spent:	1.760152816772461
+Distance:	76.44025822876156
+Num Points:	782
+---------------------------------
+Running rrt_star iteration 14:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1397
+Time spent:	1.490290880203247
+Distance:	73.311551895897
+Num Points:	729
+---------------------------------
+Running rrt_star iteration 15:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1612
+Time spent:	1.8631742000579834
+Distance:	72.74976983763989
+Num Points:	817
+---------------------------------
+Running rrt_star iteration 16:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1358
+Time spent:	1.5103249549865723
+Distance:	73.30854375568403
+Num Points:	737
+---------------------------------
+Running rrt_star iteration 17:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1080
+Time spent:	0.9957289695739746
+Distance:	76.50152855267474
+Num Points:	552
+---------------------------------
+Running rrt_star iteration 18:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	2001
+Time spent:	2.414699077606201
+Distance:	77.22477083896672
+Num Points:	930
+---------------------------------
+Running rrt_star iteration 19:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1474
+Time spent:	1.6081690788269043
+Distance:	73.54667627560795
+Num Points:	756
+---------------------------------
+Running rrt_star iteration 20:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1351
+Time spent:	1.4716510772705078
+Distance:	68.06562224232968
+Num Points:	721
+---------------------------------
+Running rrt_star iteration 21:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1491
+Time spent:	1.7465460300445557
+Distance:	71.61994181192499
+Num Points:	788
+---------------------------------
+Running rrt_star iteration 22:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1513
+Time spent:	1.7781541347503662
+Distance:	78.4433680062816
+Num Points:	801
+---------------------------------
+Running rrt_star iteration 23:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1617
+Time spent:	2.3383471965789795
+Distance:	77.52701682099828
+Num Points:	894
+---------------------------------
+Running rrt_star iteration 24:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1087
+Time spent:	1.1242938041687012
+Distance:	76.15359855820982
+Num Points:	601
+---------------------------------
+Running rrt_star iteration 25:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	994
+Time spent:	0.8651769161224365
+Distance:	82.97920515943066
+Num Points:	520
+---------------------------------
+Running rrt_star iteration 26:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1317
+Time spent:	1.4020259380340576
+Distance:	70.73034973676108
+Num Points:	706
+---------------------------------
+Running rrt_star iteration 27:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1563
+Time spent:	1.7604830265045166
+Distance:	68.817397705222
+Num Points:	815
+---------------------------------
+Running rrt_star iteration 28:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1254
+Time spent:	1.2622859477996826
+Distance:	70.86376747265011
+Num Points:	652
+---------------------------------
+Running rrt_star iteration 29:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1562
+Time spent:	1.7684218883514404
+Distance:	69.77344223692755
+Num Points:	785
+---------------------------------
+Running rrt_star iteration 30:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1419
+Time spent:	1.467965841293335
+Distance:	70.51170882648432
+Num Points:	693
+---------------------------------
+Running rrt_star iteration 31:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1271
+Time spent:	1.4788398742675781
+Distance:	72.55881667802845
+Num Points:	709
+---------------------------------
+Running rrt_star iteration 32:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1639
+Time spent:	2.10573410987854
+Distance:	71.70179171481573
+Num Points:	892
+---------------------------------
+Running rrt_star iteration 33:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1516
+Time spent:	1.763026237487793
+Distance:	77.19708735968956
+Num Points:	790
+---------------------------------
+Running rrt_star iteration 34:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1835
+Time spent:	2.2789289951324463
+Distance:	67.67690348491494
+Num Points:	922
+---------------------------------
+Running rrt_star iteration 35:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1072
+Time spent:	1.1624760627746582
+Distance:	70.85689945034686
+Num Points:	616
+---------------------------------
+Running rrt_star iteration 36:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1171
+Time spent:	1.1914749145507812
+Distance:	71.49281506940895
+Num Points:	621
+---------------------------------
+Running rrt_star iteration 37:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1363
+Time spent:	1.4755918979644775
+Distance:	70.15612483674866
+Num Points:	727
+---------------------------------
+Running rrt_star iteration 38:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1308
+Time spent:	1.3951671123504639
+Distance:	75.09814867234289
+Num Points:	693
+---------------------------------
+Running rrt_star iteration 39:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1089
+Time spent:	1.1523559093475342
+Distance:	73.12675915159114
+Num Points:	601
+---------------------------------
+Running rrt_star iteration 40:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1175
+Time spent:	1.2082278728485107
+Distance:	71.45728947767795
+Num Points:	619
+---------------------------------
+Running rrt_star iteration 41:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1761
+Time spent:	2.034839153289795
+Distance:	69.70886873509816
+Num Points:	873
+---------------------------------
+Running rrt_star iteration 42:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1066
+Time spent:	1.0254290103912354
+Distance:	72.15299023600915
+Num Points:	560
+---------------------------------
+Running rrt_star iteration 43:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1178
+Time spent:	1.0935990810394287
+Distance:	74.75039661565235
+Num Points:	613
+---------------------------------
+Running rrt_star iteration 44:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1266
+Time spent:	1.2941370010375977
+Distance:	69.9438012712219
+Num Points:	685
+---------------------------------
+Running rrt_star iteration 45:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1432
+Time spent:	1.6014912128448486
+Distance:	75.18399649833658
+Num Points:	751
+---------------------------------
+Running rrt_star iteration 46:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1574
+Time spent:	1.8353219032287598
+Distance:	73.09829136126251
+Num Points:	820
+---------------------------------
+Running rrt_star iteration 47:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1141
+Time spent:	1.1866707801818848
+Distance:	77.03723462173305
+Num Points:	646
+---------------------------------
+Running rrt_star iteration 48:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1397
+Time spent:	1.5007762908935547
+Distance:	76.90314185429803
+Num Points:	711
+---------------------------------
+Running rrt_star iteration 49:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1105
+Time spent:	0.9639589786529541
+Distance:	83.99868763646771
+Num Points:	555
+---------------------------------
+Running rrt_star iteration 50:
+---------------------------------
+Name:		rrt_star
+Success:	True
+Iterations:	1061
+Time spent:	1.0729680061340332
+Distance:	72.20125496318848
+Num Points:	586
 ---------------------------------
 Running rrt_star_llm iteration 1:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     1596
-Time spent:     3.3984711170196533
-Distance:       67.99524974063398
-Num Points:     326
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1596
+Time spent:	3.3984711170196533
+Distance:	67.99524974063398
+Num Points:	326
 ---------------------------------
 Running rrt_star_llm iteration 2:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     6514
-Time spent:     44.4059419631958
-Distance:       68.8042260963053
-Num Points:     534
+Name:		rrt_star_llm
+Success:	True
+Iterations:	6514
+Time spent:	44.4059419631958
+Distance:	68.8042260963053
+Num Points:	534
 ---------------------------------
 Running rrt_star_llm iteration 3:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     1782
-Time spent:     11.993457078933716
-Distance:       68.26416447399015
-Num Points:     351
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1782
+Time spent:	11.993457078933716
+Distance:	68.26416447399015
+Num Points:	351
 ---------------------------------
 Running rrt_star_llm iteration 4:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     4743
-Time spent:     28.02953791618347
-Distance:       72.41862915033983
-Num Points:     554
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4743
+Time spent:	28.02953791618347
+Distance:	72.41862915033983
+Num Points:	554
 ---------------------------------
 Running rrt_star_llm iteration 5:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     1159
-Time spent:     5.294622421264648
-Distance:       68.36876570780072
-Num Points:     284
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1159
+Time spent:	5.294622421264648
+Distance:	68.36876570780072
+Num Points:	284
 ---------------------------------
 Running rrt_star_llm iteration 6:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     1642
-Time spent:     8.577450037002563
-Distance:       67.81598564746733
-Num Points:     264
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1642
+Time spent:	8.577450037002563
+Distance:	67.81598564746733
+Num Points:	264
 ---------------------------------
 Running rrt_star_llm iteration 7:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     2168
-Time spent:     8.901194095611572
-Distance:       67.60261678186042
-Num Points:     390
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2168
+Time spent:	8.901194095611572
+Distance:	67.60261678186042
+Num Points:	390
 ---------------------------------
 Running rrt_star_llm iteration 8:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     4790
-Time spent:     49.49891400337219
-Distance:       68.63425584249481
-Num Points:     341
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4790
+Time spent:	49.49891400337219
+Distance:	68.63425584249481
+Num Points:	341
 ---------------------------------
 Running rrt_star_llm iteration 9:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     3658
-Time spent:     29.507484912872314
-Distance:       68.61039429953611
-Num Points:     396
+Name:		rrt_star_llm
+Success:	True
+Iterations:	3658
+Time spent:	29.507484912872314
+Distance:	68.61039429953611
+Num Points:	396
 ---------------------------------
 Running rrt_star_llm iteration 10:
 ---------------------------------
-Name:           rrt_star_llm
-Success:        True
-Iterations:     2660
-Time spent:     18.308242082595825
-Distance:       69.07206011998069
-Num Points:     326
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2660
+Time spent:	18.308242082595825
+Distance:	69.07206011998069
+Num Points:	326
+---------------------------------
+Running rrt_star_llm iteration 11:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2960
+Time spent:	6.192903995513916
+Distance:	69.557067894205
+Num Points:	461
+---------------------------------
+Running rrt_star_llm iteration 12:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1735
+Time spent:	8.675673007965088
+Distance:	68.76631889051947
+Num Points:	408
+---------------------------------
+Running rrt_star_llm iteration 13:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	605
+Time spent:	6.272952079772949
+Distance:	69.02916214015974
+Num Points:	228
+---------------------------------
+Running rrt_star_llm iteration 14:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1153
+Time spent:	6.633976697921753
+Distance:	68.31621278380015
+Num Points:	324
+---------------------------------
+Running rrt_star_llm iteration 15:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1425
+Time spent:	10.040724992752075
+Distance:	68.89676001183942
+Num Points:	324
+---------------------------------
+Running rrt_star_llm iteration 16:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	8223
+Time spent:	82.15295600891113
+Distance:	86.72844154602099
+Num Points:	672
+---------------------------------
+Running rrt_star_llm iteration 17:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	3505
+Time spent:	32.184946060180664
+Distance:	75.65510099008344
+Num Points:	482
+---------------------------------
+Running rrt_star_llm iteration 18:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1329
+Time spent:	9.84236216545105
+Distance:	68.8253822039187
+Num Points:	325
+---------------------------------
+Running rrt_star_llm iteration 19:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	842
+Time spent:	5.801068067550659
+Distance:	68.35933573443812
+Num Points:	225
+---------------------------------
+Running rrt_star_llm iteration 20:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2403
+Time spent:	13.075983047485352
+Distance:	68.64429892571171
+Num Points:	396
+---------------------------------
+Running rrt_star_llm iteration 21:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4797
+Time spent:	63.072346925735474
+Distance:	68.48308540235551
+Num Points:	346
+---------------------------------
+Running rrt_star_llm iteration 22:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1541
+Time spent:	7.43019700050354
+Distance:	67.72308877385062
+Num Points:	303
+---------------------------------
+Running rrt_star_llm iteration 23:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4070
+Time spent:	34.6882050037384
+Distance:	69.55366561575755
+Num Points:	396
+---------------------------------
+Running rrt_star_llm iteration 24:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4036
+Time spent:	27.800271034240723
+Distance:	68.79425946343478
+Num Points:	467
+---------------------------------
+Running rrt_star_llm iteration 25:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2706
+Time spent:	22.75701403617859
+Distance:	70.37799266620631
+Num Points:	516
+---------------------------------
+Running rrt_star_llm iteration 26:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	3593
+Time spent:	35.79741907119751
+Distance:	68.13411722108944
+Num Points:	411
+---------------------------------
+Running rrt_star_llm iteration 27:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4447
+Time spent:	40.63454794883728
+Distance:	67.86749165638798
+Num Points:	457
+---------------------------------
+Running rrt_star_llm iteration 28:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1940
+Time spent:	15.202160120010376
+Distance:	78.2883544820186
+Num Points:	369
+---------------------------------
+Running rrt_star_llm iteration 29:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2662
+Time spent:	20.992313861846924
+Distance:	69.28870004599443
+Num Points:	387
+---------------------------------
+Running rrt_star_llm iteration 30:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	665
+Time spent:	6.008460760116577
+Distance:	69.30308139023334
+Num Points:	274
+---------------------------------
+Running rrt_star_llm iteration 31:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	3734
+Time spent:	32.96593999862671
+Distance:	68.41391345191579
+Num Points:	351
+---------------------------------
+Running rrt_star_llm iteration 32:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1681
+Time spent:	7.499671936035156
+Distance:	66.93586035618925
+Num Points:	368
+---------------------------------
+Running rrt_star_llm iteration 33:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	844
+Time spent:	9.235952138900757
+Distance:	69.45152960764152
+Num Points:	252
+---------------------------------
+Running rrt_star_llm iteration 34:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	3017
+Time spent:	26.696125745773315
+Distance:	79.22460452704352
+Num Points:	467
+---------------------------------
+Running rrt_star_llm iteration 35:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4841
+Time spent:	62.828096866607666
+Distance:	67.91654516472263
+Num Points:	435
+---------------------------------
+Running rrt_star_llm iteration 36:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	3114
+Time spent:	17.5233051776886
+Distance:	68.4183267052796
+Num Points:	344
+---------------------------------
+Running rrt_star_llm iteration 37:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1144
+Time spent:	8.303217887878418
+Distance:	68.36547311661573
+Num Points:	278
+---------------------------------
+Running rrt_star_llm iteration 38:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	3035
+Time spent:	23.291708946228027
+Distance:	74.83495718037656
+Num Points:	465
+---------------------------------
+Running rrt_star_llm iteration 39:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2065
+Time spent:	13.72618293762207
+Distance:	72.92208318430419
+Num Points:	362
+---------------------------------
+Running rrt_star_llm iteration 40:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1935
+Time spent:	9.915633201599121
+Distance:	77.9479500570994
+Num Points:	348
+---------------------------------
+Running rrt_star_llm iteration 41:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1945
+Time spent:	7.417742013931274
+Distance:	67.53389644446887
+Num Points:	340
+---------------------------------
+Running rrt_star_llm iteration 42:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1871
+Time spent:	8.631282806396484
+Distance:	66.02864596789945
+Num Points:	340
+---------------------------------
+Running rrt_star_llm iteration 43:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2197
+Time spent:	8.801150798797607
+Distance:	65.55108893250727
+Num Points:	364
+---------------------------------
+Running rrt_star_llm iteration 44:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	953
+Time spent:	8.056854009628296
+Distance:	67.28682939636047
+Num Points:	276
+---------------------------------
+Running rrt_star_llm iteration 45:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	8737
+Time spent:	77.58298802375793
+Distance:	65.37508408022317
+Num Points:	574
+---------------------------------
+Running rrt_star_llm iteration 46:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	1570
+Time spent:	5.950745105743408
+Distance:	68.40091855275467
+Num Points:	346
+---------------------------------
+Running rrt_star_llm iteration 47:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4206
+Time spent:	77.71412706375122
+Distance:	68.45180379637848
+Num Points:	393
+---------------------------------
+Running rrt_star_llm iteration 48:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	4987
+Time spent:	55.009912729263306
+Distance:	70.22341662811631
+Num Points:	477
+---------------------------------
+Running rrt_star_llm iteration 49:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	687
+Time spent:	6.564535856246948
+Distance:	71.85582048057185
+Num Points:	271
+---------------------------------
+Running rrt_star_llm iteration 50:
+---------------------------------
+Name:		rrt_star_llm
+Success:	True
+Iterations:	2053
+Time spent:	17.180113077163696
+Distance:	68.2683036091297
+Num Points:	413
 ---------------------------------
 Running rrt_connect iteration 1:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     208
-Time spent:     0.007896184921264648
-Distance:       102.97760339749058
-Num Points:     197
+Name:		rrt_connect
+Success:	True
+Iterations:	208
+Time spent:	0.007896184921264648
+Distance:	102.97760339749058
+Num Points:	197
 ---------------------------------
 Running rrt_connect iteration 2:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     321
-Time spent:     0.01067805290222168
-Distance:       113.86062083158671
-Num Points:     209
+Name:		rrt_connect
+Success:	True
+Iterations:	321
+Time spent:	0.01067805290222168
+Distance:	113.86062083158671
+Num Points:	209
 ---------------------------------
 Running rrt_connect iteration 3:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     177
-Time spent:     0.006001710891723633
-Distance:       101.6562006227386
-Num Points:     160
+Name:		rrt_connect
+Success:	True
+Iterations:	177
+Time spent:	0.006001710891723633
+Distance:	101.6562006227386
+Num Points:	160
 ---------------------------------
 Running rrt_connect iteration 4:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     284
-Time spent:     0.00926971435546875
-Distance:       112.35529086141369
-Num Points:     197
+Name:		rrt_connect
+Success:	True
+Iterations:	284
+Time spent:	0.00926971435546875
+Distance:	112.35529086141369
+Num Points:	197
 ---------------------------------
 Running rrt_connect iteration 5:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     203
-Time spent:     0.006808757781982422
-Distance:       102.64581718682683
-Num Points:     173
+Name:		rrt_connect
+Success:	True
+Iterations:	203
+Time spent:	0.006808757781982422
+Distance:	102.64581718682683
+Num Points:	173
 ---------------------------------
 Running rrt_connect iteration 6:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     193
-Time spent:     0.006971120834350586
-Distance:       99.13408755062727
-Num Points:     168
+Name:		rrt_connect
+Success:	True
+Iterations:	193
+Time spent:	0.006971120834350586
+Distance:	99.13408755062727
+Num Points:	168
 ---------------------------------
 Running rrt_connect iteration 7:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     206
-Time spent:     0.007302999496459961
-Distance:       96.62310755920325
-Num Points:     174
+Name:		rrt_connect
+Success:	True
+Iterations:	206
+Time spent:	0.007302999496459961
+Distance:	96.62310755920325
+Num Points:	174
 ---------------------------------
 Running rrt_connect iteration 8:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     241
-Time spent:     0.008040904998779297
-Distance:       103.35966737604767
-Num Points:     183
+Name:		rrt_connect
+Success:	True
+Iterations:	241
+Time spent:	0.008040904998779297
+Distance:	103.35966737604767
+Num Points:	183
 ---------------------------------
 Running rrt_connect iteration 9:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     261
-Time spent:     0.008461713790893555
-Distance:       106.35294723500117
-Num Points:     181
+Name:		rrt_connect
+Success:	True
+Iterations:	261
+Time spent:	0.008461713790893555
+Distance:	106.35294723500117
+Num Points:	181
 ---------------------------------
 Running rrt_connect iteration 10:
 ---------------------------------
-Name:           rrt_connect
-Success:        True
-Iterations:     207
-Time spent:     0.006963968276977539
-Distance:       85.25993527612833
-Num Points:     165
+Name:		rrt_connect
+Success:	True
+Iterations:	207
+Time spent:	0.006963968276977539
+Distance:	85.25993527612833
+Num Points:	165
+---------------------------------
+Running rrt_connect iteration 11:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	152
+Time spent:	0.004928112030029297
+Distance:	91.87108831003852
+Num Points:	132
+---------------------------------
+Running rrt_connect iteration 12:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	280
+Time spent:	0.008338212966918945
+Distance:	80.03568167820758
+Num Points:	152
+---------------------------------
+Running rrt_connect iteration 13:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	272
+Time spent:	0.010562896728515625
+Distance:	107.71982230212419
+Num Points:	225
+---------------------------------
+Running rrt_connect iteration 14:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	191
+Time spent:	0.006317138671875
+Distance:	106.72784378855464
+Num Points:	168
+---------------------------------
+Running rrt_connect iteration 15:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	177
+Time spent:	0.006217002868652344
+Distance:	85.63653076704894
+Num Points:	161
+---------------------------------
+Running rrt_connect iteration 16:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	190
+Time spent:	0.005506992340087891
+Distance:	73.88528266210676
+Num Points:	121
+---------------------------------
+Running rrt_connect iteration 17:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	256
+Time spent:	0.008749008178710938
+Distance:	106.61603620964058
+Num Points:	197
+---------------------------------
+Running rrt_connect iteration 18:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	173
+Time spent:	0.005767822265625
+Distance:	91.713000773024
+Num Points:	157
+---------------------------------
+Running rrt_connect iteration 19:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	208
+Time spent:	0.007603883743286133
+Distance:	105.74067873358055
+Num Points:	187
+---------------------------------
+Running rrt_connect iteration 20:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	221
+Time spent:	0.00745391845703125
+Distance:	100.31103361329471
+Num Points:	173
+---------------------------------
+Running rrt_connect iteration 21:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	195
+Time spent:	0.006166934967041016
+Distance:	94.23688110343336
+Num Points:	156
+---------------------------------
+Running rrt_connect iteration 22:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	186
+Time spent:	0.005703926086425781
+Distance:	84.01704285076785
+Num Points:	150
+---------------------------------
+Running rrt_connect iteration 23:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	160
+Time spent:	0.005774021148681641
+Distance:	97.31042339502233
+Num Points:	167
+---------------------------------
+Running rrt_connect iteration 24:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	188
+Time spent:	0.0063250064849853516
+Distance:	108.55819034681457
+Num Points:	167
+---------------------------------
+Running rrt_connect iteration 25:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	110
+Time spent:	0.0038909912109375
+Distance:	86.28672888332275
+Num Points:	128
+---------------------------------
+Running rrt_connect iteration 26:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	249
+Time spent:	0.007296085357666016
+Distance:	91.40113598667548
+Num Points:	154
+---------------------------------
+Running rrt_connect iteration 27:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	249
+Time spent:	0.00869894027709961
+Distance:	85.17021660226358
+Num Points:	197
+---------------------------------
+Running rrt_connect iteration 28:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	208
+Time spent:	0.006150007247924805
+Distance:	100.40495766350914
+Num Points:	152
+---------------------------------
+Running rrt_connect iteration 29:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	221
+Time spent:	0.007665157318115234
+Distance:	116.51630042990135
+Num Points:	187
+---------------------------------
+Running rrt_connect iteration 30:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	183
+Time spent:	0.005769968032836914
+Distance:	85.28855036561505
+Num Points:	148
+---------------------------------
+Running rrt_connect iteration 31:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	247
+Time spent:	0.00846099853515625
+Distance:	100.77802340592916
+Num Points:	194
+---------------------------------
+Running rrt_connect iteration 32:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	180
+Time spent:	0.005368709564208984
+Distance:	78.6681241270783
+Num Points:	140
+---------------------------------
+Running rrt_connect iteration 33:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	200
+Time spent:	0.0062122344970703125
+Distance:	99.84069311380316
+Num Points:	147
+---------------------------------
+Running rrt_connect iteration 34:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	281
+Time spent:	0.008563995361328125
+Distance:	91.04443975692249
+Num Points:	167
+---------------------------------
+Running rrt_connect iteration 35:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	281
+Time spent:	0.00884103775024414
+Distance:	80.50872823755448
+Num Points:	181
+---------------------------------
+Running rrt_connect iteration 36:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	183
+Time spent:	0.0057528018951416016
+Distance:	82.12014724200596
+Num Points:	147
+---------------------------------
+Running rrt_connect iteration 37:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	428
+Time spent:	0.01511693000793457
+Distance:	113.26052384425337
+Num Points:	244
+---------------------------------
+Running rrt_connect iteration 38:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	160
+Time spent:	0.005912065505981445
+Distance:	97.49635736638866
+Num Points:	163
+---------------------------------
+Running rrt_connect iteration 39:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	197
+Time spent:	0.00678706169128418
+Distance:	97.85527810927367
+Num Points:	167
+---------------------------------
+Running rrt_connect iteration 40:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	158
+Time spent:	0.005660057067871094
+Distance:	105.47973539328642
+Num Points:	164
+---------------------------------
+Running rrt_connect iteration 41:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	228
+Time spent:	0.007452964782714844
+Distance:	91.82914964223377
+Num Points:	168
+---------------------------------
+Running rrt_connect iteration 42:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	247
+Time spent:	0.0070421695709228516
+Distance:	91.07595082264564
+Num Points:	160
+---------------------------------
+Running rrt_connect iteration 43:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	210
+Time spent:	0.006777048110961914
+Distance:	104.89014072464627
+Num Points:	169
+---------------------------------
+Running rrt_connect iteration 44:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	372
+Time spent:	0.013826847076416016
+Distance:	102.8130245824041
+Num Points:	251
+---------------------------------
+Running rrt_connect iteration 45:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	291
+Time spent:	0.011111974716186523
+Distance:	90.74859382686427
+Num Points:	228
+---------------------------------
+Running rrt_connect iteration 46:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	183
+Time spent:	0.0061130523681640625
+Distance:	96.20691317489968
+Num Points:	162
+---------------------------------
+Running rrt_connect iteration 47:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	254
+Time spent:	0.008430719375610352
+Distance:	106.22913159156631
+Num Points:	184
+---------------------------------
+Running rrt_connect iteration 48:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	230
+Time spent:	0.0076558589935302734
+Distance:	96.60075698914385
+Num Points:	182
+---------------------------------
+Running rrt_connect iteration 49:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	210
+Time spent:	0.007930278778076172
+Distance:	104.88192748531489
+Num Points:	205
+---------------------------------
+Running rrt_connect iteration 50:
+---------------------------------
+Name:		rrt_connect
+Success:	True
+Iterations:	260
+Time spent:	0.009238004684448242
+Distance:	93.7128495269279
+Num Points:	204
 ---------------------------------
 Running rrt_connect_llm iteration 1:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     571
-Time spent:     11.015165090560913
-Distance:       93.94694846567589
-Num Points:     203
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	571
+Time spent:	11.015165090560913
+Distance:	93.94694846567589
+Num Points:	203
 ---------------------------------
 Running rrt_connect_llm iteration 2:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     830
-Time spent:     14.994626998901367
-Distance:       91.93309413395899
-Num Points:     262
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	830
+Time spent:	14.994626998901367
+Distance:	91.93309413395899
+Num Points:	262
 ---------------------------------
 Running rrt_connect_llm iteration 3:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     765
-Time spent:     10.525542974472046
-Distance:       88.87063930346503
-Num Points:     185
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	765
+Time spent:	10.525542974472046
+Distance:	88.87063930346503
+Num Points:	185
 ---------------------------------
 Running rrt_connect_llm iteration 4:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     443
-Time spent:     8.468821048736572
-Distance:       84.296136260563
-Num Points:     156
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	443
+Time spent:	8.468821048736572
+Distance:	84.296136260563
+Num Points:	156
 ---------------------------------
 Running rrt_connect_llm iteration 5:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     692
-Time spent:     26.643746852874756
-Distance:       84.81714233722239
-Num Points:     150
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	692
+Time spent:	26.643746852874756
+Distance:	84.81714233722239
+Num Points:	150
 ---------------------------------
 Running rrt_connect_llm iteration 6:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     410
-Time spent:     11.628233194351196
-Distance:       78.94914991297533
-Num Points:     124
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	410
+Time spent:	11.628233194351196
+Distance:	78.94914991297533
+Num Points:	124
 ---------------------------------
 Running rrt_connect_llm iteration 7:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     602
-Time spent:     9.69522500038147
-Distance:       90.19927008071707
-Num Points:     199
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	602
+Time spent:	9.69522500038147
+Distance:	90.19927008071707
+Num Points:	199
 ---------------------------------
 Running rrt_connect_llm iteration 8:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     653
-Time spent:     17.455157041549683
-Distance:       66.95013081104256
-Num Points:     191
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	653
+Time spent:	17.455157041549683
+Distance:	66.95013081104256
+Num Points:	191
 ---------------------------------
 Running rrt_connect_llm iteration 9:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     302
-Time spent:     7.550985097885132
-Distance:       86.91737991106636
-Num Points:     155
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	302
+Time spent:	7.550985097885132
+Distance:	86.91737991106636
+Num Points:	155
 ---------------------------------
 Running rrt_connect_llm iteration 10:
 ---------------------------------
-Name:           rrt_connect_llm
-Success:        True
-Iterations:     737
-Time spent:     17.106801986694336
-Distance:       80.58689339914274
-Num Points:     199
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	737
+Time spent:	17.106801986694336
+Distance:	80.58689339914274
+Num Points:	199
+---------------------------------
+Running rrt_connect_llm iteration 11:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	852
+Time spent:	17.28403878211975
+Distance:	90.99073499679113
+Num Points:	223
+---------------------------------
+Running rrt_connect_llm iteration 12:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	442
+Time spent:	4.929643869400024
+Distance:	98.17145725728811
+Num Points:	174
+---------------------------------
+Running rrt_connect_llm iteration 13:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	468
+Time spent:	11.902512073516846
+Distance:	83.51760209699492
+Num Points:	161
+---------------------------------
+Running rrt_connect_llm iteration 14:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	129
+Time spent:	11.588196277618408
+Distance:	82.88258794300275
+Num Points:	99
+---------------------------------
+Running rrt_connect_llm iteration 15:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	297
+Time spent:	7.116002082824707
+Distance:	80.04881577829187
+Num Points:	143
+---------------------------------
+Running rrt_connect_llm iteration 16:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	821
+Time spent:	19.87309193611145
+Distance:	86.30741328009455
+Num Points:	235
+---------------------------------
+Running rrt_connect_llm iteration 17:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	420
+Time spent:	8.896011114120483
+Distance:	82.2846633168096
+Num Points:	161
+---------------------------------
+Running rrt_connect_llm iteration 18:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	298
+Time spent:	8.427080154418945
+Distance:	57.9570727506718
+Num Points:	113
+---------------------------------
+Running rrt_connect_llm iteration 19:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	661
+Time spent:	10.953922271728516
+Distance:	89.19948455413387
+Num Points:	191
+---------------------------------
+Running rrt_connect_llm iteration 20:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	352
+Time spent:	18.032721757888794
+Distance:	72.3242459682159
+Num Points:	117
+---------------------------------
+Running rrt_connect_llm iteration 21:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	692
+Time spent:	10.146269083023071
+Distance:	82.42992118319994
+Num Points:	197
+---------------------------------
+Running rrt_connect_llm iteration 22:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	327
+Time spent:	10.537243127822876
+Distance:	85.97396015314337
+Num Points:	154
+---------------------------------
+Running rrt_connect_llm iteration 23:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	622
+Time spent:	14.348446130752563
+Distance:	82.22063546816005
+Num Points:	196
+---------------------------------
+Running rrt_connect_llm iteration 24:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	722
+Time spent:	19.37774896621704
+Distance:	79.13749475406797
+Num Points:	173
+---------------------------------
+Running rrt_connect_llm iteration 25:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	993
+Time spent:	10.885078191757202
+Distance:	89.93977240969127
+Num Points:	187
+---------------------------------
+Running rrt_connect_llm iteration 26:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	226
+Time spent:	10.834914922714233
+Distance:	81.22192560047945
+Num Points:	116
+---------------------------------
+Running rrt_connect_llm iteration 27:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	684
+Time spent:	18.529813051223755
+Distance:	82.46646705752835
+Num Points:	216
+---------------------------------
+Running rrt_connect_llm iteration 28:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	363
+Time spent:	8.503417015075684
+Distance:	87.71986329185592
+Num Points:	129
+---------------------------------
+Running rrt_connect_llm iteration 29:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	544
+Time spent:	14.770503044128418
+Distance:	88.36582095474112
+Num Points:	149
+---------------------------------
+Running rrt_connect_llm iteration 30:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	520
+Time spent:	15.478762865066528
+Distance:	88.01397026778906
+Num Points:	156
+---------------------------------
+Running rrt_connect_llm iteration 31:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	297
+Time spent:	10.592029094696045
+Distance:	85.98923131508593
+Num Points:	132
+---------------------------------
+Running rrt_connect_llm iteration 32:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	147
+Time spent:	11.895603895187378
+Distance:	79.12947243492839
+Num Points:	99
+---------------------------------
+Running rrt_connect_llm iteration 33:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	786
+Time spent:	21.375634908676147
+Distance:	98.68539785139842
+Num Points:	188
+---------------------------------
+Running rrt_connect_llm iteration 34:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	595
+Time spent:	19.50837993621826
+Distance:	94.76901515596627
+Num Points:	177
+---------------------------------
+Running rrt_connect_llm iteration 35:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	799
+Time spent:	16.774911880493164
+Distance:	80.26536246467104
+Num Points:	175
+---------------------------------
+Running rrt_connect_llm iteration 36:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	254
+Time spent:	12.106126070022583
+Distance:	98.64370982280906
+Num Points:	237
+---------------------------------
+Running rrt_connect_llm iteration 37:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	428
+Time spent:	9.799161911010742
+Distance:	87.5135103358722
+Num Points:	130
+---------------------------------
+Running rrt_connect_llm iteration 38:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	799
+Time spent:	15.054537296295166
+Distance:	84.99794432731845
+Num Points:	243
+---------------------------------
+Running rrt_connect_llm iteration 39:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	483
+Time spent:	11.023174285888672
+Distance:	91.351194893905
+Num Points:	178
+---------------------------------
+Running rrt_connect_llm iteration 40:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	328
+Time spent:	14.835098266601562
+Distance:	78.14173415498348
+Num Points:	153
+---------------------------------
+Running rrt_connect_llm iteration 41:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	282
+Time spent:	19.59173893928528
+Distance:	84.73200803997801
+Num Points:	117
+---------------------------------
+Running rrt_connect_llm iteration 42:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	589
+Time spent:	14.618850946426392
+Distance:	80.25498427499132
+Num Points:	129
+---------------------------------
+Running rrt_connect_llm iteration 43:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	538
+Time spent:	16.366071939468384
+Distance:	72.8874181250751
+Num Points:	129
+---------------------------------
+Running rrt_connect_llm iteration 44:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	1135
+Time spent:	27.96491003036499
+Distance:	84.27427501374099
+Num Points:	270
+---------------------------------
+Running rrt_connect_llm iteration 45:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	391
+Time spent:	11.808783054351807
+Distance:	81.85111557281446
+Num Points:	196
+---------------------------------
+Running rrt_connect_llm iteration 46:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	634
+Time spent:	14.509503364562988
+Distance:	83.8322236666238
+Num Points:	195
+---------------------------------
+Running rrt_connect_llm iteration 47:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	513
+Time spent:	9.3866868019104
+Distance:	87.4299466686113
+Num Points:	229
+---------------------------------
+Running rrt_connect_llm iteration 48:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	349
+Time spent:	7.33640193939209
+Distance:	76.53506613795697
+Num Points:	112
+---------------------------------
+Running rrt_connect_llm iteration 49:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	414
+Time spent:	18.810994863510132
+Distance:	88.2912119333856
+Num Points:	120
+---------------------------------
+Running rrt_connect_llm iteration 50:
+---------------------------------
+Name:		rrt_connect_llm
+Success:	True
+Iterations:	544
+Time spent:	16.886929035186768
+Distance:	83.67102964175814
+Num Points:	185
 ---------------------------------
 Name,Success,Iterations,Time Spent (s),Distance,Num Points
 rrt,True,1284,0.08530807495117188,91.53162581603473,686
@@ -550,6 +2709,46 @@ rrt,True,1401,0.10518884658813477,102.58389894106566,747
 rrt,True,1511,0.12054014205932617,104.13267772987557,809
 rrt,True,2008,0.178009033203125,116.25165431051256,982
 rrt,True,1360,0.08885312080383301,84.68505700895876,661
+rrt,True,1359,0.095458984375,101.14244267201705,720
+rrt,True,1159,0.07318997383117676,94.82048101884483,601
+rrt,True,1463,0.11045622825622559,100.80837623244268,778
+rrt,True,1763,0.14095115661621094,93.13288273479202,864
+rrt,True,1202,0.07982492446899414,101.82319634677263,658
+rrt,True,1639,0.13693904876708984,112.17810744106845,873
+rrt,True,1498,0.11243963241577148,99.90386622189244,760
+rrt,True,1464,0.11066126823425293,105.26484599387933,793
+rrt,True,1415,0.10544705390930176,104.77367208476593,761
+rrt,True,1759,0.15336084365844727,99.5352168968152,931
+rrt,True,1720,0.1440901756286621,105.88171449109835,873
+rrt,True,1416,0.10448789596557617,105.76401394792002,753
+rrt,True,1644,0.1463019847869873,102.13152496976826,923
+rrt,True,1004,0.056828975677490234,92.26909340808116,545
+rrt,True,1791,0.1553797721862793,116.48123867064757,946
+rrt,True,1370,0.09332680702209473,94.80956561327206,701
+rrt,True,1532,0.10843515396118164,94.86036203333126,750
+rrt,True,1226,0.08033204078674316,89.51472184554254,642
+rrt,True,1419,0.1083681583404541,93.96929888205895,761
+rrt,True,1432,0.10916399955749512,110.79504482971669,774
+rrt,True,1293,0.07982397079467773,96.7524874140366,629
+rrt,True,990,0.04950213432312012,88.84645343058529,491
+rrt,True,1592,0.12358903884887695,97.51254349768087,822
+rrt,True,1624,0.13216590881347656,116.78986441230616,851
+rrt,True,1743,0.14504194259643555,97.95680651868177,870
+rrt,True,1611,0.12252020835876465,100.4395394239874,804
+rrt,True,947,0.053997039794921875,87.78286593298913,532
+rrt,True,1842,0.1576225757598877,108.65058899796053,948
+rrt,True,1124,0.06795406341552734,88.05520086455813,591
+rrt,True,1724,0.13318204879760742,95.66601544692914,818
+rrt,True,1415,0.11535406112670898,97.50422788285154,814
+rrt,True,1786,0.15061664581298828,103.21642747683327,897
+rrt,True,1805,0.16291189193725586,94.94217395306093,981
+rrt,True,1578,0.12211298942565918,94.22695482842609,817
+rrt,True,1342,0.09656095504760742,91.40198433407738,734
+rrt,True,1171,0.08081364631652832,88.6029683305913,671
+rrt,True,1413,0.10495901107788086,96.49356269719686,755
+rrt,True,1793,0.15527701377868652,110.21556627096669,923
+rrt,True,1057,0.062111854553222656,91.04899785501624,574
+rrt,True,1289,0.09294700622558594,94.96673381902056,700
 rrt_llm,True,1643,6.973418235778809,82.30966122999466,303
 rrt_llm,True,2253,11.65715217590332,82.95638358613286,425
 rrt_llm,True,1958,12.500138998031616,85.91296531198603,433
@@ -560,6 +2759,46 @@ rrt_llm,True,1013,6.041383981704712,82.19725163804024,272
 rrt_llm,True,2048,13.289396047592163,82.99885243483021,312
 rrt_llm,True,1813,12.847112894058228,80.92866994686099,338
 rrt_llm,True,3300,26.91976571083069,83.44579914557372,332
+rrt_llm,True,4143,23.9440701007843,83.10291540688961,372
+rrt_llm,True,991,3.1057231426239014,78.66223619250145,226
+rrt_llm,True,9783,122.68739485740662,85.21189733953196,490
+rrt_llm,True,680,9.839899063110352,82.77563989306731,206
+rrt_llm,True,1358,3.1419928073883057,83.41906514935039,253
+rrt_llm,True,3009,12.307646989822388,89.12625470384529,590
+rrt_llm,True,3335,25.704176902770996,94.1456245145849,408
+rrt_llm,True,2499,16.662904024124146,89.35979765142484,370
+rrt_llm,True,4455,26.822025775909424,90.81580498213992,491
+rrt_llm,True,1356,7.665333986282349,89.86948423539553,290
+rrt_llm,True,5186,67.75356411933899,96.14519862649821,396
+rrt_llm,True,2989,25.425529718399048,91.87645506032524,390
+rrt_llm,True,5051,53.6549129486084,95.5997304589212,409
+rrt_llm,True,3565,14.14847993850708,91.03211804666857,516
+rrt_llm,True,1138,12.258724212646484,84.61592299122073,254
+rrt_llm,True,2938,15.738049030303955,97.03732278256362,526
+rrt_llm,True,1846,16.753605127334595,90.2486768023193,354
+rrt_llm,True,2112,10.680432081222534,89.49934282673969,430
+rrt_llm,True,2157,20.704583883285522,94.76394580986576,378
+rrt_llm,True,1165,11.147527933120728,76.1175801638004,253
+rrt_llm,True,4909,26.472983837127686,86.66319222231813,478
+rrt_llm,True,1438,14.900155782699585,82.28392722116476,280
+rrt_llm,True,2878,30.040413856506348,88.49540244574064,352
+rrt_llm,True,839,8.338047981262207,96.82496537965083,278
+rrt_llm,True,870,6.579996109008789,80.88242972159037,228
+rrt_llm,True,5906,106.4444510936737,94.19126521288857,414
+rrt_llm,True,2124,16.628665924072266,85.95387144742078,343
+rrt_llm,True,2093,12.983536958694458,86.88973716193853,319
+rrt_llm,True,1429,17.27733588218689,104.67758678117494,329
+rrt_llm,True,3302,21.623948097229004,90.37766315656043,410
+rrt_llm,True,1438,6.870528936386108,90.56165695981359,398
+rrt_llm,True,3918,55.81458115577698,89.96748688555643,375
+rrt_llm,True,4854,25.436078786849976,85.79181169911182,531
+rrt_llm,True,2537,16.299052953720093,90.12037595454865,504
+rrt_llm,True,3437,29.271533727645874,91.2241142189373,398
+rrt_llm,True,5072,76.6999077796936,91.57772363066535,410
+rrt_llm,True,1253,11.500625848770142,99.55840826232112,282
+rrt_llm,True,5777,101.90668606758118,87.26486498680278,370
+rrt_llm,True,9742,215.6086118221283,95.70761662919155,356
+rrt_llm,True,1781,7.620609998703003,79.69081552359212,438
 rrt_star,True,2093,2.6479570865631104,74.12665812330955,1007
 rrt_star,True,1540,1.609133005142212,73.17362959960785,777
 rrt_star,True,1578,1.7350800037384033,72.77297808605967,805
@@ -570,6 +2809,46 @@ rrt_star,True,1349,1.4815051555633545,73.82071999307334,722
 rrt_star,True,1296,1.4442858695983887,72.64255459670655,715
 rrt_star,True,1462,1.6868500709533691,73.64477919632708,777
 rrt_star,True,1338,1.297010898590088,74.33970441706286,668
+rrt_star,True,1180,1.1955490112304688,68.0456005591393,630
+rrt_star,True,1767,2.162750244140625,71.64770217990767,869
+rrt_star,True,1559,1.760152816772461,76.44025822876156,782
+rrt_star,True,1397,1.490290880203247,73.311551895897,729
+rrt_star,True,1612,1.8631742000579834,72.74976983763989,817
+rrt_star,True,1358,1.5103249549865723,73.30854375568403,737
+rrt_star,True,1080,0.9957289695739746,76.50152855267474,552
+rrt_star,True,2001,2.414699077606201,77.22477083896672,930
+rrt_star,True,1474,1.6081690788269043,73.54667627560795,756
+rrt_star,True,1351,1.4716510772705078,68.06562224232968,721
+rrt_star,True,1491,1.7465460300445557,71.61994181192499,788
+rrt_star,True,1513,1.7781541347503662,78.4433680062816,801
+rrt_star,True,1617,2.3383471965789795,77.52701682099828,894
+rrt_star,True,1087,1.1242938041687012,76.15359855820982,601
+rrt_star,True,994,0.8651769161224365,82.97920515943066,520
+rrt_star,True,1317,1.4020259380340576,70.73034973676108,706
+rrt_star,True,1563,1.7604830265045166,68.817397705222,815
+rrt_star,True,1254,1.2622859477996826,70.86376747265011,652
+rrt_star,True,1562,1.7684218883514404,69.77344223692755,785
+rrt_star,True,1419,1.467965841293335,70.51170882648432,693
+rrt_star,True,1271,1.4788398742675781,72.55881667802845,709
+rrt_star,True,1639,2.10573410987854,71.70179171481573,892
+rrt_star,True,1516,1.763026237487793,77.19708735968956,790
+rrt_star,True,1835,2.2789289951324463,67.67690348491494,922
+rrt_star,True,1072,1.1624760627746582,70.85689945034686,616
+rrt_star,True,1171,1.1914749145507812,71.49281506940895,621
+rrt_star,True,1363,1.4755918979644775,70.15612483674866,727
+rrt_star,True,1308,1.3951671123504639,75.09814867234289,693
+rrt_star,True,1089,1.1523559093475342,73.12675915159114,601
+rrt_star,True,1175,1.2082278728485107,71.45728947767795,619
+rrt_star,True,1761,2.034839153289795,69.70886873509816,873
+rrt_star,True,1066,1.0254290103912354,72.15299023600915,560
+rrt_star,True,1178,1.0935990810394287,74.75039661565235,613
+rrt_star,True,1266,1.2941370010375977,69.9438012712219,685
+rrt_star,True,1432,1.6014912128448486,75.18399649833658,751
+rrt_star,True,1574,1.8353219032287598,73.09829136126251,820
+rrt_star,True,1141,1.1866707801818848,77.03723462173305,646
+rrt_star,True,1397,1.5007762908935547,76.90314185429803,711
+rrt_star,True,1105,0.9639589786529541,83.99868763646771,555
+rrt_star,True,1061,1.0729680061340332,72.20125496318848,586
 rrt_star_llm,True,1596,3.3984711170196533,67.99524974063398,326
 rrt_star_llm,True,6514,44.4059419631958,68.8042260963053,534
 rrt_star_llm,True,1782,11.993457078933716,68.26416447399015,351
@@ -580,6 +2859,46 @@ rrt_star_llm,True,2168,8.901194095611572,67.60261678186042,390
 rrt_star_llm,True,4790,49.49891400337219,68.63425584249481,341
 rrt_star_llm,True,3658,29.507484912872314,68.61039429953611,396
 rrt_star_llm,True,2660,18.308242082595825,69.07206011998069,326
+rrt_star_llm,True,2960,6.192903995513916,69.557067894205,461
+rrt_star_llm,True,1735,8.675673007965088,68.76631889051947,408
+rrt_star_llm,True,605,6.272952079772949,69.02916214015974,228
+rrt_star_llm,True,1153,6.633976697921753,68.31621278380015,324
+rrt_star_llm,True,1425,10.040724992752075,68.89676001183942,324
+rrt_star_llm,True,8223,82.15295600891113,86.72844154602099,672
+rrt_star_llm,True,3505,32.184946060180664,75.65510099008344,482
+rrt_star_llm,True,1329,9.84236216545105,68.8253822039187,325
+rrt_star_llm,True,842,5.801068067550659,68.35933573443812,225
+rrt_star_llm,True,2403,13.075983047485352,68.64429892571171,396
+rrt_star_llm,True,4797,63.072346925735474,68.48308540235551,346
+rrt_star_llm,True,1541,7.43019700050354,67.72308877385062,303
+rrt_star_llm,True,4070,34.6882050037384,69.55366561575755,396
+rrt_star_llm,True,4036,27.800271034240723,68.79425946343478,467
+rrt_star_llm,True,2706,22.75701403617859,70.37799266620631,516
+rrt_star_llm,True,3593,35.79741907119751,68.13411722108944,411
+rrt_star_llm,True,4447,40.63454794883728,67.86749165638798,457
+rrt_star_llm,True,1940,15.202160120010376,78.2883544820186,369
+rrt_star_llm,True,2662,20.992313861846924,69.28870004599443,387
+rrt_star_llm,True,665,6.008460760116577,69.30308139023334,274
+rrt_star_llm,True,3734,32.96593999862671,68.41391345191579,351
+rrt_star_llm,True,1681,7.499671936035156,66.93586035618925,368
+rrt_star_llm,True,844,9.235952138900757,69.45152960764152,252
+rrt_star_llm,True,3017,26.696125745773315,79.22460452704352,467
+rrt_star_llm,True,4841,62.828096866607666,67.91654516472263,435
+rrt_star_llm,True,3114,17.5233051776886,68.4183267052796,344
+rrt_star_llm,True,1144,8.303217887878418,68.36547311661573,278
+rrt_star_llm,True,3035,23.291708946228027,74.83495718037656,465
+rrt_star_llm,True,2065,13.72618293762207,72.92208318430419,362
+rrt_star_llm,True,1935,9.915633201599121,77.9479500570994,348
+rrt_star_llm,True,1945,7.417742013931274,67.53389644446887,340
+rrt_star_llm,True,1871,8.631282806396484,66.02864596789945,340
+rrt_star_llm,True,2197,8.801150798797607,65.55108893250727,364
+rrt_star_llm,True,953,8.056854009628296,67.28682939636047,276
+rrt_star_llm,True,8737,77.58298802375793,65.37508408022317,574
+rrt_star_llm,True,1570,5.950745105743408,68.40091855275467,346
+rrt_star_llm,True,4206,77.71412706375122,68.45180379637848,393
+rrt_star_llm,True,4987,55.009912729263306,70.22341662811631,477
+rrt_star_llm,True,687,6.564535856246948,71.85582048057185,271
+rrt_star_llm,True,2053,17.180113077163696,68.2683036091297,413
 rrt_connect,True,208,0.007896184921264648,102.97760339749058,197
 rrt_connect,True,321,0.01067805290222168,113.86062083158671,209
 rrt_connect,True,177,0.006001710891723633,101.6562006227386,160
@@ -590,6 +2909,46 @@ rrt_connect,True,206,0.007302999496459961,96.62310755920325,174
 rrt_connect,True,241,0.008040904998779297,103.35966737604767,183
 rrt_connect,True,261,0.008461713790893555,106.35294723500117,181
 rrt_connect,True,207,0.006963968276977539,85.25993527612833,165
+rrt_connect,True,152,0.004928112030029297,91.87108831003852,132
+rrt_connect,True,280,0.008338212966918945,80.03568167820758,152
+rrt_connect,True,272,0.010562896728515625,107.71982230212419,225
+rrt_connect,True,191,0.006317138671875,106.72784378855464,168
+rrt_connect,True,177,0.006217002868652344,85.63653076704894,161
+rrt_connect,True,190,0.005506992340087891,73.88528266210676,121
+rrt_connect,True,256,0.008749008178710938,106.61603620964058,197
+rrt_connect,True,173,0.005767822265625,91.713000773024,157
+rrt_connect,True,208,0.007603883743286133,105.74067873358055,187
+rrt_connect,True,221,0.00745391845703125,100.31103361329471,173
+rrt_connect,True,195,0.006166934967041016,94.23688110343336,156
+rrt_connect,True,186,0.005703926086425781,84.01704285076785,150
+rrt_connect,True,160,0.005774021148681641,97.31042339502233,167
+rrt_connect,True,188,0.0063250064849853516,108.55819034681457,167
+rrt_connect,True,110,0.0038909912109375,86.28672888332275,128
+rrt_connect,True,249,0.007296085357666016,91.40113598667548,154
+rrt_connect,True,249,0.00869894027709961,85.17021660226358,197
+rrt_connect,True,208,0.006150007247924805,100.40495766350914,152
+rrt_connect,True,221,0.007665157318115234,116.51630042990135,187
+rrt_connect,True,183,0.005769968032836914,85.28855036561505,148
+rrt_connect,True,247,0.00846099853515625,100.77802340592916,194
+rrt_connect,True,180,0.005368709564208984,78.6681241270783,140
+rrt_connect,True,200,0.0062122344970703125,99.84069311380316,147
+rrt_connect,True,281,0.008563995361328125,91.04443975692249,167
+rrt_connect,True,281,0.00884103775024414,80.50872823755448,181
+rrt_connect,True,183,0.0057528018951416016,82.12014724200596,147
+rrt_connect,True,428,0.01511693000793457,113.26052384425337,244
+rrt_connect,True,160,0.005912065505981445,97.49635736638866,163
+rrt_connect,True,197,0.00678706169128418,97.85527810927367,167
+rrt_connect,True,158,0.005660057067871094,105.47973539328642,164
+rrt_connect,True,228,0.007452964782714844,91.82914964223377,168
+rrt_connect,True,247,0.0070421695709228516,91.07595082264564,160
+rrt_connect,True,210,0.006777048110961914,104.89014072464627,169
+rrt_connect,True,372,0.013826847076416016,102.8130245824041,251
+rrt_connect,True,291,0.011111974716186523,90.74859382686427,228
+rrt_connect,True,183,0.0061130523681640625,96.20691317489968,162
+rrt_connect,True,254,0.008430719375610352,106.22913159156631,184
+rrt_connect,True,230,0.0076558589935302734,96.60075698914385,182
+rrt_connect,True,210,0.007930278778076172,104.88192748531489,205
+rrt_connect,True,260,0.009238004684448242,93.7128495269279,204
 rrt_connect_llm,True,571,11.015165090560913,93.94694846567589,203
 rrt_connect_llm,True,830,14.994626998901367,91.93309413395899,262
 rrt_connect_llm,True,765,10.525542974472046,88.87063930346503,185
@@ -600,3 +2959,43 @@ rrt_connect_llm,True,602,9.69522500038147,90.19927008071707,199
 rrt_connect_llm,True,653,17.455157041549683,66.95013081104256,191
 rrt_connect_llm,True,302,7.550985097885132,86.91737991106636,155
 rrt_connect_llm,True,737,17.106801986694336,80.58689339914274,199
+rrt_connect_llm,True,852,17.28403878211975,90.99073499679113,223
+rrt_connect_llm,True,442,4.929643869400024,98.17145725728811,174
+rrt_connect_llm,True,468,11.902512073516846,83.51760209699492,161
+rrt_connect_llm,True,129,11.588196277618408,82.88258794300275,99
+rrt_connect_llm,True,297,7.116002082824707,80.04881577829187,143
+rrt_connect_llm,True,821,19.87309193611145,86.30741328009455,235
+rrt_connect_llm,True,420,8.896011114120483,82.2846633168096,161
+rrt_connect_llm,True,298,8.427080154418945,57.9570727506718,113
+rrt_connect_llm,True,661,10.953922271728516,89.19948455413387,191
+rrt_connect_llm,True,352,18.032721757888794,72.3242459682159,117
+rrt_connect_llm,True,692,10.146269083023071,82.42992118319994,197
+rrt_connect_llm,True,327,10.537243127822876,85.97396015314337,154
+rrt_connect_llm,True,622,14.348446130752563,82.22063546816005,196
+rrt_connect_llm,True,722,19.37774896621704,79.13749475406797,173
+rrt_connect_llm,True,993,10.885078191757202,89.93977240969127,187
+rrt_connect_llm,True,226,10.834914922714233,81.22192560047945,116
+rrt_connect_llm,True,684,18.529813051223755,82.46646705752835,216
+rrt_connect_llm,True,363,8.503417015075684,87.71986329185592,129
+rrt_connect_llm,True,544,14.770503044128418,88.36582095474112,149
+rrt_connect_llm,True,520,15.478762865066528,88.01397026778906,156
+rrt_connect_llm,True,297,10.592029094696045,85.98923131508593,132
+rrt_connect_llm,True,147,11.895603895187378,79.12947243492839,99
+rrt_connect_llm,True,786,21.375634908676147,98.68539785139842,188
+rrt_connect_llm,True,595,19.50837993621826,94.76901515596627,177
+rrt_connect_llm,True,799,16.774911880493164,80.26536246467104,175
+rrt_connect_llm,True,254,12.106126070022583,98.64370982280906,237
+rrt_connect_llm,True,428,9.799161911010742,87.5135103358722,130
+rrt_connect_llm,True,799,15.054537296295166,84.99794432731845,243
+rrt_connect_llm,True,483,11.023174285888672,91.351194893905,178
+rrt_connect_llm,True,328,14.835098266601562,78.14173415498348,153
+rrt_connect_llm,True,282,19.59173893928528,84.73200803997801,117
+rrt_connect_llm,True,589,14.618850946426392,80.25498427499132,129
+rrt_connect_llm,True,538,16.366071939468384,72.8874181250751,129
+rrt_connect_llm,True,1135,27.96491003036499,84.27427501374099,270
+rrt_connect_llm,True,391,11.808783054351807,81.85111557281446,196
+rrt_connect_llm,True,634,14.509503364562988,83.8322236666238,195
+rrt_connect_llm,True,513,9.3866868019104,87.4299466686113,229
+rrt_connect_llm,True,349,7.33640193939209,76.53506613795697,112
+rrt_connect_llm,True,414,18.810994863510132,88.2912119333856,120
+rrt_connect_llm,True,544,16.886929035186768,83.67102964175814,185

@@ -123,7 +123,7 @@ def rrt_connect_llm():
     return stats
 
 display = False
-iterations = 10
+iterations = 50
 stats = []
 
 run = [rrt, rrt_llm, rrt_star, rrt_star_llm, rrt_connect, rrt_connect_llm]
